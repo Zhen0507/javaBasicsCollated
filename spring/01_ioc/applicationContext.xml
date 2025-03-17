@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 定义Student bean -->
+    <bean id="student" class="com.example.model.Student">
+        <property name="name" value="张三" />
+        <property name="age" value="20" />
+    </bean>
+    
+    <!-- 定义Teacher bean -->
+    <bean id="teacher" class="com.example.model.Teacher">
+        <property name="name" value="王老师" />
+        <property name="subject" value="数学" />
+    </bean>
+
+</beans> 
